@@ -13,3 +13,12 @@ app.get("/", (req, res) => {
 app.listen(port, () => {
   console.log(`Listening on port ${port}`);
 });
+
+
+//steps to use body-parser
+//use npm to install the body-parser module
+//run index1.js with nodemon
+//import the body-parser module
+//mount the middleware using the Express .use() method
+//specify .urlencoded({extended : true}) to create a body for URL-encoded requests like our form submission
+//write a .post("/submit") handler where you console.log() the form contents when the submit button is clicked 
